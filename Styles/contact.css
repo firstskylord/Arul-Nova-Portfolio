@@ -1,0 +1,75 @@
+/* Font Faces */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Assistant:wght@200..800&family=Baskervville:ital,wght@0,400..700;1,400..700&family=Bitcount+Single:wght@100..900&family=Finlandica+Text:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Marcellus&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Headline:wght@200..700&family=New+Tegomin&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Fonts:
+1. Montserrat
+2. Afacad
+3. New Tegomin
+4. Outfit
+5. Bitcount Single
+6. Space Grotesk
+7. Mozilla Headline
+8. Assistant
+9. Red Hat Display (h1)
+10. Lexend (h1)
+11. Urbanist
+12. Finlandica Text (h1)
+13. Marcellus
+14. Zilla Slab
+15. Baskervville 
+
+*/
+
+/* Element Selectors */
+
+body {
+  background-color: #030707;
+  color: #fafaff;
+  display: flex;
+  flex-direction: column;
+}
+
+p,
+a {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Class Selectors */
+
+.NavBar {
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  position: sticky;
+  top: 0.5rem;
+  background-color: #b0e4cc94;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.LeftNav {
+  padding-left: 2rem;
+}
+
+.LeftNav,
+.RightNav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.ProfilePic {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 25%;
+}

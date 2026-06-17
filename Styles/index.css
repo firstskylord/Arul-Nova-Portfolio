@@ -1,0 +1,399 @@
+/* Font Faces */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Assistant:wght@200..800&family=Baskervville:ital,wght@0,400..700;1,400..700&family=Bitcount+Single:wght@100..900&family=Finlandica+Text:ital,wght@0,100..900;1,100..900&family=Lexend:wght@100..900&family=Marcellus&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mozilla+Headline:wght@200..700&family=New+Tegomin&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Fonts:
+1. Montserrat
+2. Afacad
+3. New Tegomin
+4. Outfit (NavBar anchor)
+5. Bitcount Single
+6. Space Grotesk
+7. Mozilla Headline
+8. Assistant
+9. Red Hat Display (Arul Nova Title)
+10. Lexend (h2)
+11. Urbanist (Hero Buttons)
+12. Finlandica Text (h1)
+13. Marcellus
+14. Zilla Slab
+15. Baskervville 
+
+*/
+
+/* Element Selectors */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #030707;
+  color: #fafaff;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #fafaff;
+}
+
+hr {
+  margin: 1rem;
+  color: black;
+}
+
+/* Less significant Element Selectors */
+
+/* Class Selectors */
+
+.NavBar {
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  position: sticky;
+  top: 0.5rem;
+  background-color: #b0e4cc94;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.NavBar a {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  color: #030707;
+}
+
+.LeftNav {
+  padding-left: 2rem;
+}
+
+.LeftNav,
+.RightNav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.ProfilePic {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 25%;
+}
+
+.Hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HeroName {
+  font-family: "Red Hat Display", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 150px;
+}
+
+.HeroTitle {
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+}
+
+.HeroButtons {
+  align-self: center;
+  display: flex;
+  margin: 0.5rem 0;
+  gap: 1rem;
+}
+
+.HeroButtons a {
+  font-family: "Urbanist", sans-serif;
+  color: #030707;
+}
+
+.ViewWork,
+.BuildToge {
+  background-color: #77c5a9;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.SecHeads {
+  padding-left: 2rem;
+}
+
+.SecTitle {
+  font-family: "Assistant", sans-serif;
+  font-style: normal;
+}
+
+.About {
+  padding: 0 2rem;
+}
+
+.aboutstats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.projectcount,
+.clientcount,
+.languagecount,
+.workstatus {
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  background-color: #2c5f4ea6;
+}
+
+.projectcount {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  height: 8rem;
+  width: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientcount {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  height: 8rem;
+  width: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.languagecount {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  height: 8rem;
+  width: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.workstatus {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  height: 8rem;
+  width: 8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.workstatus .count,
+.workstatus .label {
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.label {
+  margin-top: 5px;
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+}
+
+.aboutdesc {
+  padding-top: 3.5rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.Skills {
+  padding: 0 2rem;
+}
+
+.skillset {
+  padding-left: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.TechIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.langlist a,
+.framelist a,
+.designlist a {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.langset h5,
+.frameset h5,
+.designset h5 {
+  font-family: "Finlandica Text", sans-serif;
+  font-style: normal;
+}
+
+.langlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.langlist a {
+  font-family: "Urbanist", sans-serif;
+  border: 0.5px solid transparent;
+  border-radius: 0.5rem;
+  background-color: #091612a6;
+  padding: 9px;
+}
+
+.framelist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.framelist a {
+  font-family: "Urbanist", sans-serif;
+  border: 0.5px solid transparent;
+  border-radius: 0.5rem;
+  background-color: #091612a6;
+  padding: 7px;
+}
+
+.designlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.designlist a {
+  font-family: "Urbanist", sans-serif;
+  border: 0.5px solid transparent;
+  border-radius: 0.5rem;
+  background-color: #091612a6;
+  padding: 7px;
+}
+
+.education,
+.edutitle {
+  padding-left: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.edutitle {
+  font-family: "Finlandica Text", sans-serif;
+  font-style: normal;
+}
+
+.btechclg {
+  border: 0.5px solid transparent;
+  border-radius: 1rem;
+  background-color: #2c5f4ea6;
+  padding: 7px;
+  padding-left: 2rem;
+}
+
+.btechclg h3,
+.btechclg p,
+.btechclg h5 {
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+}
+
+.interclg {
+  width: auto;
+  border: 0.5px solid transparent;
+  border-radius: 1rem;
+  background-color: #2c5f4ea6;
+  padding: 7px;
+  padding-left: 2rem;
+}
+
+.interclg h3,
+.interclg p,
+.interclg h5 {
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+}
+
+.learnertitle {
+  padding-left: 3rem;
+  font-family: "Finlandica Text", sans-serif;
+  font-style: normal;
+}
+
+.current-learning {
+  padding-left: 3rem;
+}
+
+.nowlist a,
+.laterlist a {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.nowstuff h5,
+.laterstuff h5 {
+  font-family: "Finlandica Text", sans-serif;
+  font-style: normal;
+}
+
+.nowlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nowlist a {
+  font-family: "Urbanist", sans-serif;
+  border: 0.5px solid transparent;
+  border-radius: 0.5rem;
+  background-color: #091612a6;
+  padding: 7px;
+}
+
+.laterlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.laterlist a {
+  font-family: "Urbanist", sans-serif;
+  border: 0.5px solid transparent;
+  border-radius: 0.5rem;
+  background-color: #091612a6;
+  padding: 7px;
+}
