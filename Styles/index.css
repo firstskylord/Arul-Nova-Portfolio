@@ -73,6 +73,10 @@ hr {
   color: #030707;
 }
 
+.NavBar a:hover {
+  opacity: 90%;
+}
+
 .LeftNav {
   padding-left: 2rem;
 }
@@ -160,36 +164,9 @@ hr {
   background-color: #2c5f4ea6;
 }
 
-.projectcount {
-  display: flex;
-  flex-direction: column;
-  gap: 0.125rem;
-  height: 8rem;
-  width: 8rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.clientcount {
-  display: flex;
-  flex-direction: column;
-  gap: 0.125rem;
-  height: 8rem;
-  width: 8rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.languagecount {
-  display: flex;
-  flex-direction: column;
-  gap: 0.125rem;
-  height: 8rem;
-  width: 8rem;
-  justify-content: center;
-  align-items: center;
-}
-
+.projectcount,
+.clientcount,
+.languagecount,
 .workstatus {
   display: flex;
   flex-direction: column;
@@ -313,7 +290,7 @@ hr {
   font-style: normal;
 }
 
-.btechclg {
+.schools {
   border: 0.5px solid transparent;
   border-radius: 1rem;
   background-color: #2c5f4ea6;
@@ -321,25 +298,9 @@ hr {
   padding-left: 2rem;
 }
 
-.btechclg h3,
-.btechclg p,
-.btechclg h5 {
-  font-family: "Lexend", sans-serif;
-  font-style: normal;
-}
-
-.interclg {
-  width: auto;
-  border: 0.5px solid transparent;
-  border-radius: 1rem;
-  background-color: #2c5f4ea6;
-  padding: 7px;
-  padding-left: 2rem;
-}
-
-.interclg h3,
-.interclg p,
-.interclg h5 {
+.schools h3,
+.schools p,
+.schools h5 {
   font-family: "Lexend", sans-serif;
   font-style: normal;
 }
@@ -396,4 +357,8 @@ hr {
   border-radius: 0.5rem;
   background-color: #091612a6;
   padding: 7px;
+}
+
+.Projects {
+  padding: 0 2rem;
 }
