@@ -198,6 +198,23 @@ hr {
   font-family: "Red Hat Display", sans-serif;
 }
 
+.aboutcurrent {
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.currenttitle {
+  font-family: "Afacad", sans-serif;
+  font-style: normal;
+  font-size: 11px;
+}
+
+.currentdesc {
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+}
+
 .Skills {
   padding: 0 2rem;
 }
