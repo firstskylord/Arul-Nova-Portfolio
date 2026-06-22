@@ -28,6 +28,7 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none; /* Options: auto, thin, none */
 }
 
 body {
@@ -270,7 +271,7 @@ hr {
 
 .aboutcurrent {
   padding-top: 1.5rem;
-  padding-left: 2rem;
+  padding-left: 4rem;
   font-family: "Outfit", sans-serif;
 
   cursor: default;
@@ -306,7 +307,7 @@ hr {
 }
 
 .skillset {
-  padding-left: 3rem;
+  padding-left: 4rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -365,7 +366,7 @@ hr {
 
 .education,
 .edutitle {
-  padding-left: 3rem;
+  padding-left: 4rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -395,13 +396,13 @@ hr {
 }
 
 .learnertitle {
-  padding-left: 3rem;
+  padding-left: 4rem;
   font-family: "Finlandica Text", sans-serif;
   font-style: normal;
 }
 
 .current-learning {
-  padding-left: 3rem;
+  padding-left: 4rem;
 }
 
 .nowlist a,
