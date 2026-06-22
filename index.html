@@ -28,10 +28,10 @@
 
     <!-- Hero Section -->
 
-    <main id="Hero" class="Hero">
+    <section id="Hero" class="Hero">
       <h1 class="HeroName">Arul Nova</h1>
       <p class="HeroTitle">Full-Stack Developer & Graphic Designer</p>
-    </main>
+    </section>
 
     <div class="HeroButtons">
       <button class="ViewWork">
@@ -73,6 +73,14 @@
         <div class="languagecount">
           <h2 class="count">3</h2>
           <p class="label">LANGUAGES</p>
+          <div class="labelonhover">
+            <p>Languages I speak:</p>
+            <ul>
+              <li>English</li>
+              <li>Hindi</li>
+              <li>Telugu</li>
+            </ul>
+          </div>
         </div>
         <div class="workstatus">
           <!-- Open to Work / Currently Employed / On a Vacation -->
@@ -83,25 +91,51 @@
 
       <div class="aboutdesc">
         <p>
-          I'm a passionate full-stack developer and graphic designer with a
-          knack for creating visually stunning and highly functional digital
-          experiences. With a background in both coding and design, I bring a
-          unique blend of creativity and technical expertise to every project I
-          undertake.
+          Pursuing
+          <code>Computer Science Engineering at My College</code> with a
+          curiosity that doesn't stay in one lane. Currently in my academic
+          journey, I'm someone who learns best by building — whether that's a
+          web app, a mobile interface, or something that sits closer to the
+          infrastructure layer.
+          <br />
+          <br />
+
+          I'm actively exploring
+          <code>
+            Full-stack Web Development (React | Next.js | Tailwind CSS)</code
+          >, <code>DevOps</code>, and the
+          <code>AI & ML space.</code>
+          I have projects on the paper and I'm still going deeper, because I
+          believe the best engineers never stop being students.
+          <br />
+          <br />
+
+          When I'm not coding or reading up on something new, you'll find me
+          gaming, watching shows, diving into documentaries, or tinkering with
+          open source projects.
         </p>
       </div>
 
       <div class="aboutcurrent">
         <h3>⚡ CURRENTLY</h3>
 
-        <a class="currenttitle"> BUILDING </a>
-        <a class="currentdesc"> MY PORTFOLIO WEBSITE</a>
-
-        <a class="currenttitle"> BUILDING </a>
-        <a class="currentdesc"> MY PORTFOLIO WEBSITE</a>
-
-        <a class="currenttitle"> BUILDING </a>
-        <a class="currentdesc"> MY PORTFOLIO WEBSITE</a>
+        <div class="currentitem">
+          <a style="color: yellowgreen">●</a>
+          <a class="currenttitle"> BUILDING </a>
+          <a class="currentdesc"> My Portfolio Website</a>
+        </div>
+        ‎
+        <div class="currentitem">
+          <a style="color: yellow">●</a>
+          <a class="currenttitle"> LEARNING </a>
+          <a class="currentdesc"> React · Next.js · Tailwind CSS</a>
+        </div>
+        ‎
+        <div class="currentitem">
+          <a style="color: tomato">●</a>
+          <a class="currenttitle"> PREPARING FOR </a>
+          <a class="currentdesc"> College — CSE / ECE</a>
+        </div>
       </div>
     </section>
 
@@ -124,28 +158,28 @@
         <div class="langset">
           <h5>LANGUAGES</h5>
           <div class="langlist">
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/HTML5.svg"
               />
               HTML
             </a>
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/CSS3.svg"
               />
               CSS
             </a>
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/JavaScript.svg"
               />
               JavaScript
             </a>
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/Python.svg"
@@ -158,35 +192,35 @@
         <div class="frameset">
           <h5>FRAMEWORKS & TOOLS</h5>
           <div class="framelist">
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/React.svg"
               />
               React
             </a>
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/Node.js.svg"
               />
               Node.js
             </a>
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/Discord.js.svg"
               />
               Discord.js
             </a>
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://www.freeiconspng.com/thumbs/github-icon/github-icon-9.png"
               />
               GitHub
             </a>
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/Figma.svg"
@@ -199,11 +233,11 @@
         <div class="designset">
           <h5>DESIGN</h5>
           <div class="designlist">
-            <a>Graphic Design</a>
-            <a>UI/UX Design</a>
-            <a>Brand Identity</a>
-            <a>Illustration</a>
-            <a>Typography</a>
+            <a class="Technology">Graphic Design</a>
+            <a class="Technology">UI/UX Design</a>
+            <a class="Technology">Brand Identity</a>
+            <a class="Technology">Illustration</a>
+            <a class="Technology">Typography</a>
           </div>
         </div>
       </div>
@@ -216,17 +250,17 @@
         <div class="schools">
           <h3>My College — Hyderabad</h3>
           <p>B.Tech · Computer Science / ECE</p>
-          <h5>2026 — 2030 · Incoming Freshman</h5>
+          <small>2026 — 2030 · Incoming Freshman</small>
         </div>
         <div class="schools">
           <h3>Resonance</h3>
           <p>Class XI - XII · Physics, Chemistry and Mathematics</p>
-          <h5>2024 — 2026 · AIR 58,634 - JEE Main</h5>
+          <small>2024 — 2026 · AIR 58,634 - JEE Main</small>
         </div>
         <div class="schools">
           <h3>CAL Public School</h3>
           <p>Class II - X · CBSE Curriculum</p>
-          <h5>2016 — 2023</h5>
+          <small>2016 — 2023</small>
         </div>
       </div>
 
@@ -238,21 +272,21 @@
         <div class="nowstuff">
           <h5>RIGHT NOW</h5>
           <div class="nowlist">
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/React.svg"
               />
               React
             </a>
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://img.icons8.com/fluent-systems-filled/512w/FFFFFF/nextjs.png"
               />
               Next.js
             </a>
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg"
@@ -265,22 +299,22 @@
         <div class="laterstuff">
           <h5>UP NEXT</h5>
           <div class="laterlist">
-            <a>Framer Motion</a>
-            <a>
+            <a class="Technology">Framer Motion</a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/TypeScript.svg"
               />
               Typescript
             </a>
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/MongoDB.svg"
               />
               MongoDB
             </a>
-            <a>
+            <a class="Technology">
               <img
                 class="TechIcon"
                 src="https://icon.icepanel.io/Technology/svg/Node.js.svg"
