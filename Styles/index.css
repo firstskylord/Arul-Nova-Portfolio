@@ -429,14 +429,6 @@ hr {
   align-items: center;
 }
 
-.nowlist a {
-  font-family: "Urbanist", sans-serif;
-  border: 0.5px solid transparent;
-  border-radius: 0.5rem;
-  background-color: #091612a6;
-  padding: 7px;
-}
-
 .laterlist {
   display: flex;
   flex-wrap: wrap;
@@ -444,6 +436,7 @@ hr {
   align-items: center;
 }
 
+.nowlist a,
 .laterlist a {
   font-family: "Urbanist", sans-serif;
   border: 0.5px solid transparent;
@@ -454,4 +447,86 @@ hr {
 
 .Projects {
   padding: 0 2rem;
+}
+
+/* Footer CSS */
+
+.Footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  padding-top: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+}
+
+.SocialIcon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.TopFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TopLeftFoot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.TopLeftFoot a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  border: 0.5px solid #6beec0a6;
+  border-radius: 0.5rem;
+  background-color: #1631285b;
+  padding: 7px;
+}
+
+.TopRightFoot h2 {
+  display: flex;
+  flex-wrap: wrap;
+
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.TopLeftFoot a:hover {
+  color: #fafaff;
+  background-color: #6beec023;
+}
+
+.BottomFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BotLeftFoot {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.BotRightFoot {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.BotLeftFoot a,
+.BotRightFoot a {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 13px;
 }
