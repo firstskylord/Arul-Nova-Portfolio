@@ -156,13 +156,14 @@ hr {
 }
 
 .HeroButtons a {
-  font-family: "Urbanist", sans-serif;
-  font-weight: 600;
+  font-family: "Shippori Antique B1", sans-serif;
+  font-size: 0.85rem;
   color: #030707;
 }
 
 .HeroButtons a:hover {
-  font-family: "Urbanist", sans-serif;
+  font-family: "Shippori Antique B1", sans-serif;
+  font-size: 0.85rem;
   color: #f0fffa;
 }
 
@@ -508,7 +509,7 @@ hr {
   gap: 0.5rem;
 
   font-family: "Red Hat Display", sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   border-radius: 1.75rem;
   background-color: #1631285b;
   padding: 11px;
@@ -559,13 +560,13 @@ hr {
 }
 
 .BuildTogeSecButt {
-  font-family: "Lexend", sans-serif;
+  font-family: "Shippori Antique B1", sans-serif;
   color: #030707;
   background-color: #77c5a9;
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
   border: none;
-  font-size: 1rem;
+  font-size: 0.85rem;
   cursor: pointer;
   transition: 150ms;
 }
