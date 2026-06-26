@@ -226,8 +226,17 @@ hr {
   justify-content: center;
   align-items: center;
 
+  transition: 150ms ease;
+
   cursor: default;
   user-select: none;
+}
+
+.projectcount:hover,
+.clientcount:hover,
+.languagecount:hover,
+.workstatus:hover {
+  box-shadow: 0px 0px 100px #6beec02f;
 }
 
 .languagecount .labelonhover {

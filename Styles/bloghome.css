@@ -68,6 +68,8 @@ hr {
 
 /* Class Selectors */
 
+/* Navigation Bar CSS */
+
 .NavBar {
   border-radius: 3rem;
   position: relative;
@@ -120,4 +122,42 @@ hr {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+/* Body CSS */
+
+.BlogHead {
+  padding-top: 2rem;
+  padding-left: 6rem;
+}
+
+.BlogHead h1 {
+  font-family: "Lexend";
+}
+
+.BlogHead p {
+  font-family: "Red Hat Display";
+  font-size: 14px;
+}
+
+.BlogSpace {
+  display: grid;
+  grid-auto-columns: 200px;
+  grid-auto-rows: 200px;
+  gap: 1em;
+  grid-template-areas:
+    "box-1 box-1 box-1 box-1 box-1"
+    "box-2 box-2 box-2 box-2 box-3"
+    "box-4 box-5 box-5 box-5 box-5";
+
+  padding-top: 2rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  padding-bottom: 5rem;
+}
+
+.BlogPost {
+  padding: 2em;
+  background-color: #1631285b;
+  border-radius: 15px;
 }
