@@ -408,6 +408,21 @@ hr {
   background-color: #12271fc2;
 }
 
+.education {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.education::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #6beec0a6;
+}
+
 .education,
 .edutitle {
   padding-left: 4rem;
@@ -423,12 +438,33 @@ hr {
 }
 
 .schools {
-  border: 0.5px solid transparent;
+  border-left: 4px solid #6beec0a6;
+  border-top: 0.5px solid #6beec0a6;
+  border-right: 0.5px solid #6beec0a6;
+  border-bottom: 0.5px solid #6beec0a6;
   border-radius: 1rem;
-  background-color: #2c5f4ea6;
+  /* background-color: #2c5f4ea6; */
+  width: fit-content;
   padding: 7px;
   padding-left: 2rem;
+  padding-right: 2rem;
   padding-bottom: 1.5rem;
+}
+
+.schools {
+  position: relative;
+  margin-left: 1.5rem;
+}
+
+.schools::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #6beec0a6;
+  left: -28px;
+  top: 22px;
+  transform: rotate(45deg);
 }
 
 .schools h3,
