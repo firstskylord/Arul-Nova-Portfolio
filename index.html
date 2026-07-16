@@ -7,6 +7,9 @@
     <title>Arul Nova - Full-Stack Developer & Graphic Designer</title>
     <link rel="stylesheet" href="./Styles/index.css" />
     <link rel="icon" type="image/png" href="./MediaLib/FavLogo.png" />
+    <script src="./Scripts/index-about.js" defer></script>
+    <script src="./Scripts/index-projects.js" defer></script>
+    <script src="./Scripts/index-skills.js" defer></script>
   </head>
 
   <body>
@@ -149,7 +152,13 @@
         <h2>What I Know</h2>
       </div>
 
-      <div class="skillset">
+      <div class="skill-tabs">
+        <button class="tab-btn active" data-tab="skills">Skills</button>
+        <button class="tab-btn" data-tab="education">Education</button>
+        <button class="tab-btn" data-tab="learning">Currently Learning</button>
+      </div>
+
+      <div id="skills" class="skillset tab-content active">
         <div class="langset">
           <h5>LANGUAGES</h5>
           <div class="langlist">
@@ -237,33 +246,25 @@
         </div>
       </div>
 
-      <hr />
-
-      <h3 class="edutitle">Education</h3>
-
-      <div class="education">
+      <div id="education" class="education tab-content">
         <div class="schools">
-          <h3>VNR VJIET, Hyderabad</h3>
+          <h4>VNR VJIET, Hyderabad</h4>
           <p>B.Tech · Computer Science and Engineering</p>
           <small>2026 — Present</small>
         </div>
         <div class="schools">
-          <h3>Resonance</h3>
+          <h4>Resonance</h4>
           <p>Class XI - XII · Physics, Chemistry and Mathematics</p>
           <small>2024 — 2026</small>
         </div>
         <div class="schools">
-          <h3>CAL Public School</h3>
+          <h4>CAL Public School</h4>
           <p>Class II - X · CBSE Curriculum</p>
           <small>2016 — 2024</small>
         </div>
       </div>
 
-      <hr />
-
-      <h3 class="learnertitle">Currently Learning</h3>
-
-      <div class="current-learning">
+      <div id="learning" class="current-learning tab-content">
         <div class="nowstuff">
           <h5>RIGHT NOW</h5>
           <div class="nowlist">
