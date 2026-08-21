@@ -36,6 +36,14 @@ body {
   color: #fafaff;
   display: flex;
   flex-direction: column;
+
+  background-image:
+    linear-gradient(to right, #b0e4cc0e 1px, transparent 1px),
+    linear-gradient(to bottom, #b0e4cc0e 1px, transparent 1px);
+  z-index: -1;
+  background-size: 40px 40px;
+  min-height: 100vh;
+  margin: 0;
 }
 
 h2 {
@@ -49,10 +57,10 @@ a {
 }
 
 hr {
-  margin: 1rem 4rem;
-  opacity: 25%;
+  margin: 1rem;
+  opacity: 1;
   border: none;
-  border-top: 1px solid #b0e4cc94;
+  border-top: 3px solid #b0e4cc1e;
 }
 
 /* MORE Selectors */
@@ -258,7 +266,7 @@ hr {
   padding-top: 1rem;
   padding-left: 5rem;
   padding-right: 5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 
 .SocialIcon {
