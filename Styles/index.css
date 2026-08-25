@@ -453,11 +453,13 @@ hr {
   border-top: 0.125px solid #6beec0a6;
   border-right: 0.125px solid #6beec0a6;
   border-bottom: 0.125px solid #6beec0a6;
+  background-color: #091612cc;
   border-radius: 0.5rem;
-  width: auto;
+  width: fit-content;
+  height: fit-content;
   padding: 7px;
   padding-left: 2rem;
-  padding-right: 16rem;
+  padding-right: 2rem;
   padding-bottom: 1.5rem;
   z-index: -1;
 }
