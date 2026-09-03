@@ -13,7 +13,7 @@ This site is built on `HTML`, `CSS` and `JS`.
 
 ## 💻 Development
 
-
+This portfolio has been built on **HTML**, **CSS**, and **JavaScript**. It is deployed on Vercel.
 
 ## 🤝 Contribution
 
