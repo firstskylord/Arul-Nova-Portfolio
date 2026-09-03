@@ -3,7 +3,7 @@
 Welcome to repository for my portfolio website. 
 This site is built on `HTML`, `CSS` and `JS`.
 
-### 📇 [Visit Portfolio](https://ajiteshgo.vercel.app/)
+📇 [Visit Portfolio](https://ajiteshgo.vercel.app/)
 
 ## 📖 Pages
 
