@@ -36,6 +36,14 @@ body {
   color: #fafaff;
   display: flex;
   flex-direction: column;
+
+  background-image:
+    linear-gradient(to right, #b0e4cc0e 1px, transparent 1px),
+    linear-gradient(to bottom, #b0e4cc0e 1px, transparent 1px);
+  z-index: -1;
+  background-size: 40px 40px;
+  min-height: 100vh;
+  margin: 0;
 }
 
 h2 {
@@ -160,4 +168,93 @@ hr {
   padding: 2em;
   background-color: #1631285b;
   border-radius: 15px;
+}
+
+/* Footer CSS */
+
+.Footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  padding-top: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 3rem;
+}
+
+.SocialIcon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.TopFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TopLeftFoot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.TopLeftFoot a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 13px;
+  color: #ffffff;
+  border: 0.5px solid #6beec0a6;
+  border-radius: 0.5rem;
+  background-color: #1631285b;
+  padding: 7px;
+
+  transition: 200ms;
+}
+
+.TopLeftFoot a:hover {
+  scale: 1.03125;
+  box-shadow: 0px 0px 100px #6beec0a6;
+}
+
+.TopRightFoot h2 {
+  display: flex;
+  flex-wrap: wrap;
+
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.TopLeftFoot a:hover {
+  color: #fafaff;
+  background-color: #6beec023;
+}
+
+.BottomFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BotLeftFoot {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.BotRightFoot {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.BotLeftFoot a,
+.BotRightFoot a {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 13px;
 }
