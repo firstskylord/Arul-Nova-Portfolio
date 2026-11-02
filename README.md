@@ -9,7 +9,7 @@ This site is built on `HTML`, `CSS` and `JS`.
 
 - **Home**: The home page of my portfolio site.
 - **Blog**: A showcase of my contributions and random blog work.
-- **Contact**: A page where you can find ways to get in touch with me and view my other works.
+- **Contact**: A page where you can find ways to get in touch with me.
 
 ## 💻 Development
 

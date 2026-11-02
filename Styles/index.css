@@ -594,6 +594,43 @@ hr {
   padding: 0 2rem;
 }
 
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.Projects .project {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-start;
+
+  margin-left: 3rem;
+  padding: 1rem;
+  width: fit-content;
+  border-radius: 0.5rem;
+  border-color: #6beec05b;
+  background-color: #12271fc2;
+  font-family: "Urbanist", sans-serif;
+}
+
+.Projects .project img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.Projects .project h3 {
+  margin-top: 0;
+}
+
+.Projects .project .smallProText {
+  display: flex;
+  gap: 1rem;
+}
+
 .gitactivity {
   display: flex;
   flex-direction: column;
