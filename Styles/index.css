@@ -626,6 +626,8 @@ hr {
 
   padding-left: 5rem;
   padding-right: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .ProjectList .project {
@@ -637,9 +639,16 @@ hr {
   justify-content: center;
 }
 
+.ProjectList .project:hover {
+  border: 0.25px solid #77c5a9a6;
+  box-shadow: 0px 0px 15px #77c5a854;
+}
+
 .ProjectList .project img {
-  width: 480px;
-  height: 270px;
+  max-width: 480px;
+  max-height: 270px;
+  width: auto;
+  height: auto;
   object-fit: cover;
   border-radius: 0.5rem;
 }
