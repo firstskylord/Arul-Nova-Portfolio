@@ -452,6 +452,9 @@ hr {
 }
 
 .schools {
+  display: flex;
+  gap: 1rem;
+
   border-left: 4.5px solid #6beec0a6;
   border-top: 0.125px solid #6beec0a6;
   border-right: 0.125px solid #6beec0a6;
@@ -461,9 +464,10 @@ hr {
   width: fit-content;
   height: fit-content;
   padding: 7px;
+  padding-top: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   z-index: -1;
 }
 
@@ -495,6 +499,14 @@ hr {
 
 .schools p {
   font-size: 15px;
+}
+
+.schoolsImg img {
+  max-width: 100px;
+  max-height: 118px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .current-learning {
@@ -630,6 +642,31 @@ hr {
   height: 270px;
   object-fit: cover;
   border-radius: 0.5rem;
+}
+
+.projectTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.projbutt {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  border-radius: 0.5rem;
+  background-color: #1631285b;
+  padding: 11px;
+}
+
+.projbutt:hover {
+  background-color: #12271fc2;
+  border: 0.25px solid #77c5a9a6;
 }
 
 .gitactivity {
