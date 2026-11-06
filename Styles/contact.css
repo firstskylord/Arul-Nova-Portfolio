@@ -199,9 +199,32 @@ hr {
   box-shadow: 0px 0px 250px #6beec0a6;
 }
 
+.RightTopSocialEMItem {
+  position: relative;
+}
+
 .RightTopSocialEMItem:hover::after {
   content: "novarul54@gmail.com";
+  position: absolute;
+  left: calc(100% + 6px);
+  top: 50%;
+
+  white-space: nowrap;
   font-size: smaller;
+  opacity: 1;
+  visibility: hidden;
+
+  background-color: #1631285b;
+  border: 0.5px solid #6beec0a6;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.RightTopSocialEMItem:hover::after,
+.RightTopSocialEMItem:focus-visible::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0) translateY(-50%);
 }
 
 .resbutton {

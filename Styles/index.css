@@ -610,7 +610,8 @@ hr {
   font-family: "Lexend", sans-serif;
 }
 
-.Projects p {
+.Projects p,
+.ProjectList small {
   font-family: "Urbanist", sans-serif;
 }
 
@@ -676,6 +677,20 @@ hr {
 .projbutt:hover {
   background-color: #12271fc2;
   border: 0.25px solid #77c5a9a6;
+}
+
+.techStack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.techStack small {
+  background-color: #1631285b;
+  border: 0.25px solid #77c5a9a6;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .gitactivity {
