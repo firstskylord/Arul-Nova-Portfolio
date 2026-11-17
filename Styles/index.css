@@ -298,6 +298,7 @@ hr {
   padding-left: 9rem;
   padding-right: 9rem;
   font-family: "Red Hat Display", sans-serif;
+  line-height: 1.75;
 
   cursor: default;
   user-select: none;
