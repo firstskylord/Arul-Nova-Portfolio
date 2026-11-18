@@ -258,3 +258,26 @@ hr {
   font-family: "Red Hat Display", sans-serif;
   font-size: 13px;
 }
+
+@media (max-width: 768px) {
+  .NavBar {
+    margin: 1rem auto;
+    max-width: 92%;
+    padding: 0.75rem 1.25rem;
+  }
+
+  .Nav {
+    gap: 1rem;
+  }
+
+  .BlogHead {
+    padding: 2rem 1.5rem 0 1.5rem;
+    text-align: center;
+  }
+
+  .BlogSpace {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
